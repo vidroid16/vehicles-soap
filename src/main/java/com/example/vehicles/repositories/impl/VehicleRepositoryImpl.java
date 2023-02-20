@@ -13,7 +13,6 @@ import jakarta.persistence.Table;
 import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.*;
 import jakarta.transaction.Transactional;
-import jakarta.validation.ConstraintViolationException;
 import jakarta.ws.rs.NotFoundException;
 import org.eclipse.persistence.internal.jpa.EJBQueryImpl;
 
@@ -25,6 +24,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 
 @ApplicationScoped
 @Transactional

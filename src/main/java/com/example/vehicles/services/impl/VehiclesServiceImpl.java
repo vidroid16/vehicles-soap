@@ -13,8 +13,8 @@ import com.example.vehicles.services.VehiclesService;
 import com.example.vehicles.utils.Sortfields;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
-import jakarta.validation.ValidationException;
 
+import jakarta.validation.ValidationException;
 import java.util.ArrayList;
 import java.util.List;
 

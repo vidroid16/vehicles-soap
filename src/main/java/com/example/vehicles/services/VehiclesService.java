@@ -5,9 +5,9 @@ import com.example.vehicles.dtos.VehicleDto;
 import com.example.vehicles.dtos.VehicleToModifyDto;
 import com.example.vehicles.models.Vehicle;
 import com.example.vehicles.repositories.VehicleRepository;
-import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
-import jakarta.ws.rs.QueryParam;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import javax.ws.rs.QueryParam;
 
 import java.util.List;
 

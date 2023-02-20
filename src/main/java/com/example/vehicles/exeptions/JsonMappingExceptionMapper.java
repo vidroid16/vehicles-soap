@@ -1,6 +1,5 @@
 package com.example.vehicles.exeptions;
 
-import jakarta.json.stream.JsonParsingException;
 import jakarta.ws.rs.ProcessingException;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.ExceptionMapper;
